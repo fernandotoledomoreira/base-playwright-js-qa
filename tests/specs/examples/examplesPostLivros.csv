@@ -1,0 +1,6 @@
+"field","value","code"
+"nome","",400
+"nome",null,400
+"nome",true,201
+"nome",false,400
+"nome","C&A Davó",201

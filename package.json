@@ -1,0 +1,36 @@
+{
+  "name": "base-playwright-js-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:workers": "npx playwright test --config=playwright.config.js --workers=10 --grep",
+    "test": "npx playwright test --config=playwright.config.js --workers=1 --grep",
+    "clean:reports": "sh removeReports.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "allure-playwright": "^2.1.0",
+    "aws-sdk": "^2.1350.0",
+    "csv-parse": "^5.3.6",
+    "dotenv": "^16.0.3",
+    "faker-br": "^0.4.1",
+    "fs": "^0.0.1-security",
+    "jsonschema": "^1.4.1",
+    "log-timestamp": "^0.3.0",
+    "pg": "^8.10.0",
+    "playwright": "^1.35.0",
+    "redis": "^4.6.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}
