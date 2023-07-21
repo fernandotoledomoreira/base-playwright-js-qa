@@ -1,0 +1,14 @@
+node_modules/
+allure-results/
+**/package-lock.json
+playwright-report/
+tests/tdm/
+test-results/
+videos/
+.DS_STORE
+.env
+/.vscode
+/reports/junit/results.xml
+/test-results/
+/playwright-report/
+/playwright/.cache/
